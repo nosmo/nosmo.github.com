@@ -1,0 +1,39 @@
+h1 {
+	font: normal 36px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	color: #fff;
+	text-transform: lowercase;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+	margin: 0 0 20px;
+}
+
+h1 span {
+	color: rgba(0,0,0,0.6);
+	text-shadow: 0 1px 1px rgba(255,255,255,0.3);
+}
+
+
+body {
+	/*font: 13px/1.5 "Lucida Grande", Lucida, Verdana, sans-serif;*/
+	color: #fff;
+	background: #555 repeat-x fixed;
+	margin: 50px 0 0;
+	padding: 0;
+	cursor: default;
+}
+
+#content {
+	display: block;
+	min-height: 300px;
+	max-width: 600px;
+	padding: 25px 65px 50px 210px;
+}
+
+a {
+	color: rgba(0,0,0,0.4);
+	font: small-caps 20px/2 "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+ul {
+	list-style-position: inside;
+	list-style-type: lower-greek;
+}
