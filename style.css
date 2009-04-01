@@ -21,6 +21,18 @@ body {
 	cursor: default;
 }
 
+#boxthing {
+    position:relative;
+                    width: 495px;
+                background: #1e1e1e;
+                border-bottom: 1px solid #2a2a2a;
+                margin-top: 10px;
+                padding: 14px;
+                padding-top: 9px;
+                padding-bottom: 7px;
+                text-shadow: #141414 0 1px 0;
+
+}
 #content {
 	display: block;
 	min-height: 300px;
@@ -29,11 +41,12 @@ body {
 }
 
 a {
-	color: rgba(0,0,0,0.4);
 	font: small-caps 20px/2 "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: rgba(255,255,255,0.6);
 }
 
 ul {
+	color: rgba(0,0,0,0.4);
 	list-style-position: inside;
 	list-style-type: lower-greek;
 }
