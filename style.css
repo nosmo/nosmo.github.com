@@ -7,46 +7,56 @@ h1 {
 }
 
 h1 span {
-	color: rgba(0,0,0,0.6);
-	text-shadow: 0 1px 1px rgba(255,255,255,0.3);
+	color: rgba(173,173,173,0.6);
+	text-shadow: inherit;	
 }
 
-
 body {
-	/*font: 13px/1.5 "Lucida Grande", Lucida, Verdana, sans-serif;*/
 	color: #fff;
-	background: #555 repeat-x fixed;
+	background: #555 repeat-x;
 	margin: 50px 0 0;
-	padding: 0;
-	cursor: default;
 }
 
 #boxthing {
     position:relative;
-                    width: 495px;
-                background: #1e1e1e;
-                border-bottom: 1px solid #2a2a2a;
-                margin-top: 10px;
-                padding: 14px;
-                padding-top: 9px;
-                padding-bottom: 7px;
-                text-shadow: #141414 0 1px 0;
-
+    background: #1e1e1e;
+    border-bottom: 1px solid #2a2a2a;
+    padding-top: 9px;
+    text-shadow: #141414 0 1px 0;
+	padding-bottom: 9px;
+	margin-right: 10px;
+	width: 400px;
+	height: 100%;
 }
+
 #content {
 	display: block;
 	min-height: 300px;
 	max-width: 600px;
-	padding: 25px 65px 50px 210px;
+	padding: 25px 65px 50px 112px;
 }
 
-a {
-	font: small-caps 20px/2 "Lucida Grande", Lucida, Verdana, sans-serif;
+ul a {	
 	color: rgba(255,255,255,0.6);
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+
+ul #linkdesc {
+	color: #fff;
+	text-indent: 25px;
+	font-size: 75%;
+	line-height: 120%;
+	padding-right: 8px;
+	font-variant: small-caps;
 }
 
 ul {
-	color: rgba(0,0,0,0.4);
+	font: 20px/2 "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: rgba(173,173,173,0.6);
 	list-style-position: inside;
 	list-style-type: lower-greek;
+}
+
+p #line {
 }
